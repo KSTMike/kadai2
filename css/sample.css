@@ -1,0 +1,158 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .main-header {
+    padding-bottom: 15%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-position: fixed;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main-header img{
+    width: 13%;
+  }
+
+  .main-header p{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%,+70%);
+    display: table-cell;
+    width: 13%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  /* ここから */
+  header {
+    height: 50px;
+    width: 100%;
+    background-color: #2B2B2B;
+    position: absolute;
+    top:0px;
+  }
+  
+  header ul {
+    
+  }
+  
+  header ul a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header li {
+    list-style: none;
+    float: left;
+  }
+
+ .clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+ }
+
+  .left{
+    float: left;
+  }
+
+  .left li{
+    padding-right: 10px;
+  }
+
+  .right{
+    float: right;
+  }
+
+  .right li{
+    padding-right: 10px;
+  }
+  
+  header ul:after {
+  }
+  /* ここまでがheader部分の実装 */
+  
+  .main-header {
+    margin-top: 50px;
+  }
+  
+  .main-header img {
+  /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+    width: 200px;
+  }
+  
+  .about {
+    height: 10rem;
+    margin-top: 3rem;
+
+  }
+  
+  .about h1{
+    font-size: 1.5rem;
+  }
+
+  .about p{
+    font-size: 0.8rem;
+  }
+
+  /* ここから */
+  .function {
+    height: 18rem;
+    background-color: #D3D3D3;
+  }
+
+  .function h1{
+    font-size: 1.5rem;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%,+80%);
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .function-images {
+    display: flex;
+  }
+  
+  .function-image {
+    float: inline-end;
+    margin: 0 auto;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%,+30%);
+  }
+  /* ここまでがfunction部分の実装 */
+  
+  footer {
+    height: 70px;
+    background-color: #283A4B;
+    text-size-adjust: 0.8rem;
+    margin-bottom: 10rem;
+  }
+
+  footer p{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%,+100%);
+  }
+
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
